@@ -8,6 +8,10 @@ i {
   padding: 0px 4px;
 }
 
+h2 {
+  color: #fff;
+}
+
 #header {
   background: #303030;
   display: flex;
@@ -40,4 +44,41 @@ i {
     width: 100%;
     text-align: center;
   }
+}
+
+#main {
+  margin: auto;
+  text-align: center;
+}
+
+#form {
+}
+
+#email {
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+#features {
+  color: #fff;
+  max-width: 40%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.features {
+  display: inline-block;
+}
+
+.feature-head {
+  margin-bottom: 0px;
+}
+
+.feature-description {
+  margin-top: 0px;
+}
+
+.f-icon {
 }
