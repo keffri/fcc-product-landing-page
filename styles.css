@@ -9,7 +9,9 @@ i {
 }
 
 #header {
+  background: #303030;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   height: 60px;
   line-height: 60px;
@@ -17,13 +19,25 @@ i {
 
 #title {
   margin-top: 0px;
+  margin-bottom: 0px;
   color: #fff;
 }
 
 #nav-bar {
+  background-color: #303030;
 }
 
 .nav-link {
   color: #fff;
   padding: 0px 20px;
+}
+
+@media all and (max-width: 600px) {
+  #header {
+    justify-content: center;
+  }
+  #nav-bar {
+    width: 100%;
+    text-align: center;
+  }
 }
