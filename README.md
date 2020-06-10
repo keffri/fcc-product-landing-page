@@ -2,4 +2,4 @@ FreeCodeCamp Project: Product Landing Page
 
 Using HTML and CSS to create a product landing page.
 
-Dark Mode practice.
+Practice with Flexbox to make responsive content.
