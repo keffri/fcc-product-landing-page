@@ -52,6 +52,7 @@ h2 {
 }
 
 #form {
+  margin-top: 75px;
 }
 
 #email {
@@ -63,22 +64,43 @@ h2 {
 
 #features {
   color: #fff;
-  max-width: 40%;
+  width: 40%;
+  min-width: 40%;
   margin: 100px auto;
-  text-align: left;
 }
 
 .features {
-  display: inline-block;
+  display: block;
 }
 
 .feature-head {
   margin-bottom: 0px;
+  text-align: left;
 }
 
 .feature-description {
   margin-top: 0px;
+  text-align: left;
 }
 
 .f-icon {
+  width: 60px;
+  height: 60px;
+  padding-right: 50px;
+  float: left;
+}
+
+@media all and (max-width: 600px) {
+  #features {
+    width: 80%;
+  }
+  .feature-head,
+  .feature-description {
+    text-align: center;
+  }
+  .f-icon {
+    width: 0px;
+    height: 0px;
+    float: none;
+  }
 }
