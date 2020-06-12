@@ -17,6 +17,8 @@ h3 {
 }
 
 #header {
+  position: sticky;
+  top: 0;
   background: #303030;
   display: flex;
   flex-flow: row wrap;
