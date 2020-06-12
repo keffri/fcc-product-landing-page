@@ -81,7 +81,7 @@ h4 {
   margin: 100px auto;
 }
 
-.features {
+.feature {
   display: block;
 }
 
@@ -139,7 +139,7 @@ h4 {
   display: inline-block;
   background-color: #000;
   border: 2px solid #fff;
-  margin: 5px 15px;
+  margin: 15px 15px;
   width: 275px;
   height: 300px;
   transition: 0.5s ease-in-out;
