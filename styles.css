@@ -10,6 +10,8 @@ i {
 
 h2 {
   color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -68,6 +70,7 @@ h4 {
 }
 
 #email {
+  padding: 6px;
 }
 
 #submit {
@@ -150,6 +153,8 @@ h4 {
   transform: scale(1.1);
 }
 
+/* Unsure of how to get card to not cover header on hover. */
+
 .price {
   font-size: 20px;
 }
@@ -189,6 +194,7 @@ h4 {
 }
 
 a:link {
+  color: #fff;
   text-decoration: none;
 }
 
